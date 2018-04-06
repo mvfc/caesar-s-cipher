@@ -11,6 +11,8 @@ if(ed == '1'):
 		if(x.isalpha()):
 			indice = alfabeto.index(x)
 			texto2 += alfabeto[((indice+deslocamento))]
+		else:
+			texto2 += x
 	print(texto2)
 
 if(ed == '2'):
@@ -22,4 +24,6 @@ if(ed == '2'):
 		if(x.isalpha()):
 			indice = alfabeto.index(x)
 			texto2 += alfabeto[((indice-deslocamento))]
+		else:
+			texto2 += x
 	print(texto2)
